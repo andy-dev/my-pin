@@ -1,5 +1,6 @@
-require 'spec_helper'
+require 'rails_helper'
 
+#needs work
 feature "the homepage" do
   scenario "a user can see all pins" do
     post = Pin.create(:title => "test pin title", :description => "this is test for pin")
